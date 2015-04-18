@@ -866,7 +866,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickSchedule/QuickSchedule-Prefix.pch";
 				INFOPLIST_FILE = "QuickSchedule/QuickSchedule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -884,7 +884,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickSchedule/QuickSchedule-Prefix.pch";
 				INFOPLIST_FILE = "QuickSchedule/QuickSchedule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -1039,6 +1039,7 @@
 				5BC8AA781AE2C3CC0000A141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC8AA791AE2C3CC0000A141 /* Build configuration list for PBXNativeTarget "QuickSchedule WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -1047,6 +1048,7 @@
 				5BC8AA7B1AE2C3CC0000A141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
