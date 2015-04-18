@@ -1,2 +1,3 @@
-# QSTest
-for testing before submitting
+QuickSchedule
+=============
+Simple Employee scheduling app.

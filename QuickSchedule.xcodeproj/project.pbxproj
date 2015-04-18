@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0E186D17D4E43000237B76 /* EditDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E186C17D4E43000237B76 /* EditDayViewController.m */; };
+		5B0E187017D4E4E000237B76 /* EditShiftDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E186F17D4E4E000237B76 /* EditShiftDetailViewController.m */; };
+		5B18C31917C12D8200711181 /* EditShiftsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18C31817C12D8200711181 /* EditShiftsViewController.m */; };
+		5B19CACD1810CA0A00B8220F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B19CACC1810CA0A00B8220F /* Default-568h@2x.png */; };
+		5B19CAD31810DFF500B8220F /* temp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B19CAD21810DFF500B8220F /* temp2.png */; };
+		5B38E00617B7BFB000422EC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B38E00517B7BFB000422EC1 /* UIKit.framework */; };
+		5B38E00817B7BFB000422EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B38E00717B7BFB000422EC1 /* Foundation.framework */; };
+		5B38E00A17B7BFB000422EC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B38E00917B7BFB000422EC1 /* CoreGraphics.framework */; };
+		5B38E01017B7BFB000422EC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B38E00E17B7BFB000422EC1 /* InfoPlist.strings */; };
+		5B38E01217B7BFB000422EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38E01117B7BFB000422EC1 /* main.m */; };
+		5B38E01617B7BFB000422EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38E01517B7BFB000422EC1 /* AppDelegate.m */; };
+		5B38E01F17B7BFB000422EC1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B38E01D17B7BFB000422EC1 /* MainStoryboard.storyboard */; };
+		5B38E02E17B7BFF400422EC1 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38E02917B7BFF400422EC1 /* Employee.m */; };
+		5B38E02F17B7BFF400422EC1 /* WorkShift.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38E02B17B7BFF400422EC1 /* WorkShift.m */; };
+		5B38E03017B7BFF400422EC1 /* WorkDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38E02D17B7BFF400422EC1 /* WorkDay.m */; };
+		5B6E666518123E4C005D8269 /* shareImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E666418123E4C005D8269 /* shareImage2.png */; };
+		5B6E666718123E8E005D8269 /* shareImage2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E666618123E8E005D8269 /* shareImage2@2x.png */; };
+		5BAEA608180058EC0038A5ED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAEA607180058EC0038A5ED /* MessageUI.framework */; };
+		5BB548F7181D8AA20055A94F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB548F6181D8AA20055A94F /* Images.xcassets */; };
+		5BB7C95E17E8D45900608790 /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7C95D17E8D45900608790 /* MyManager.m */; };
+		5BC119631801131F00DC2904 /* DayOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC119621801131F00DC2904 /* DayOrderViewController.m */; };
+		5BC237CF1801BFD200C6CF6B /* EmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC237BA1801BFD200C6CF6B /* EmployeesViewController.m */; };
+		5BC237D01801BFD200C6CF6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC237BB1801BFD200C6CF6B /* InfoPlist.strings */; };
+		5BC237D11801BFD200C6CF6B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC237BD1801BFD200C6CF6B /* MainStoryboard.storyboard */; };
+		5BC237D41801BFD200C6CF6B /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC237C31801BFD200C6CF6B /* ScheduleViewController.m */; };
+		5BC8AA441AE2B8DF0000A141 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA311AE2B8DF0000A141 /* Contents.json */; };
+		5BC8AA451AE2B8DF0000A141 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA321AE2B8DF0000A141 /* Icon-60.png */; };
+		5BC8AA461AE2B8DF0000A141 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA331AE2B8DF0000A141 /* Icon-60@2x.png */; };
+		5BC8AA471AE2B8DF0000A141 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA341AE2B8DF0000A141 /* Icon-60@3x.png */; };
+		5BC8AA481AE2B8DF0000A141 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA351AE2B8DF0000A141 /* Icon-72.png */; };
+		5BC8AA491AE2B8DF0000A141 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA361AE2B8DF0000A141 /* Icon-72@2x.png */; };
+		5BC8AA4A1AE2B8DF0000A141 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA371AE2B8DF0000A141 /* Icon-76.png */; };
+		5BC8AA4B1AE2B8DF0000A141 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA381AE2B8DF0000A141 /* Icon-76@2x.png */; };
+		5BC8AA4C1AE2B8DF0000A141 /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA391AE2B8DF0000A141 /* Icon-Small-40.png */; };
+		5BC8AA4D1AE2B8DF0000A141 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA3A1AE2B8DF0000A141 /* Icon-Small-40@2x.png */; };
+		5BC8AA4E1AE2B8DF0000A141 /* Icon-Small-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA3B1AE2B8DF0000A141 /* Icon-Small-40@3x.png */; };
+		5BC8AA4F1AE2B8DF0000A141 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA3C1AE2B8DF0000A141 /* Icon-Small-50.png */; };
+		5BC8AA501AE2B8DF0000A141 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA3D1AE2B8DF0000A141 /* Icon-Small-50@2x.png */; };
+		5BC8AA511AE2B8DF0000A141 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA3E1AE2B8DF0000A141 /* Icon-Small.png */; };
+		5BC8AA521AE2B8DF0000A141 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA3F1AE2B8DF0000A141 /* Icon-Small@2x.png */; };
+		5BC8AA531AE2B8DF0000A141 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA401AE2B8DF0000A141 /* Icon-Small@3x.png */; };
+		5BC8AA541AE2B8DF0000A141 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA411AE2B8DF0000A141 /* Icon.png */; };
+		5BC8AA551AE2B8DF0000A141 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA421AE2B8DF0000A141 /* Icon@2x.png */; };
+		5BC8AA561AE2B8DF0000A141 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA431AE2B8DF0000A141 /* iTunesArtwork@2x.png */; };
+		5BC8AA621AE2C3CC0000A141 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA611AE2C3CC0000A141 /* InterfaceController.m */; };
+		5BC8AA641AE2C3CC0000A141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA631AE2C3CC0000A141 /* Images.xcassets */; };
+		5BC8AA681AE2C3CC0000A141 /* QuickSchedule WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA671AE2C3CC0000A141 /* QuickSchedule WatchKit App.app */; };
+		5BC8AA701AE2C3CC0000A141 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA6E1AE2C3CC0000A141 /* Interface.storyboard */; };
+		5BC8AA721AE2C3CC0000A141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8AA711AE2C3CC0000A141 /* Images.xcassets */; };
+		5BC8AA751AE2C3CC0000A141 /* QuickSchedule WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5BC8AA5C1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BC8AA8B1AE2C49C0000A141 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA7E1AE2C49C0000A141 /* Employee.m */; };
+		5BC8AA8E1AE2C49C0000A141 /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA841AE2C49C0000A141 /* MyManager.m */; };
+		5BC8AA901AE2C49C0000A141 /* WorkDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA881AE2C49C0000A141 /* WorkDay.m */; };
+		5BC8AA911AE2C49C0000A141 /* WorkShift.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA8A1AE2C49C0000A141 /* WorkShift.m */; };
+		5BC8AA981AE2CECD0000A141 /* ShiftRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA971AE2CECD0000A141 /* ShiftRowController.m */; };
+		5BC8AA9B1AE2CEE50000A141 /* EmployeeRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA9A1AE2CEE50000A141 /* EmployeeRowController.m */; };
+		5BC8AA9E1AE2CF370000A141 /* EmployeesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8AA9D1AE2CF370000A141 /* EmployeesInterfaceController.m */; };
+		5BCFBBE717BFA4F700C2ABC4 /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCFBBE617BFA4F700C2ABC4 /* AddEmployeeViewController.m */; };
+		5BE5A444183DC5EB00C834BC /* LaunchImage-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5A43F183DC5EB00C834BC /* LaunchImage-iPad.png */; };
+		5BE5A445183DC5EB00C834BC /* LaunchImage-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5A440183DC5EB00C834BC /* LaunchImage-iPad@2x.png */; };
+		5BF6251D1810606200B58B64 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF6251A1810606200B58B64 /* Default.png */; };
+		5BF6251E1810606200B58B64 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF6251B1810606200B58B64 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC8AA691AE2C3CC0000A141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B38DFFA17B7BFB000422EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC8AA661AE2C3CC0000A141;
+			remoteInfo = "QuickSchedule WatchKit App";
+		};
+		5BC8AA731AE2C3CC0000A141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B38DFFA17B7BFB000422EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC8AA5B1AE2C3CC0000A141;
+			remoteInfo = "QuickSchedule WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BC8AA7C1AE2C3CC0000A141 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5BC8AA751AE2C3CC0000A141 /* QuickSchedule WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B0E186B17D4E43000237B76 /* EditDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDayViewController.h; sourceTree = "<group>"; };
+		5B0E186C17D4E43000237B76 /* EditDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDayViewController.m; sourceTree = "<group>"; };
+		5B0E186E17D4E4E000237B76 /* EditShiftDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditShiftDetailViewController.h; sourceTree = "<group>"; };
+		5B0E186F17D4E4E000237B76 /* EditShiftDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditShiftDetailViewController.m; sourceTree = "<group>"; };
+		5B140B5317B7CD470021F190 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = QuickSchedule/ScheduleViewController.h; sourceTree = "<group>"; };
+		5B140B5417B7CD470021F190 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = QuickSchedule/ScheduleViewController.m; sourceTree = "<group>"; };
+		5B140B5617B7D75C0021F190 /* EmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeesViewController.h; path = QuickSchedule/EmployeesViewController.h; sourceTree = "<group>"; };
+		5B140B5717B7D75C0021F190 /* EmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeesViewController.m; path = QuickSchedule/EmployeesViewController.m; sourceTree = "<group>"; };
+		5B18C31717C12D8200711181 /* EditShiftsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditShiftsViewController.h; sourceTree = "<group>"; };
+		5B18C31817C12D8200711181 /* EditShiftsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditShiftsViewController.m; sourceTree = "<group>"; };
+		5B19CACC1810CA0A00B8220F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B19CAD21810DFF500B8220F /* temp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp2.png; sourceTree = "<group>"; };
+		5B38E00217B7BFB000422EC1 /* QuickSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B38E00517B7BFB000422EC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B38E00717B7BFB000422EC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B38E00917B7BFB000422EC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B38E00D17B7BFB000422EC1 /* QuickSchedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickSchedule-Info.plist"; sourceTree = "<group>"; };
+		5B38E00F17B7BFB000422EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B38E01117B7BFB000422EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B38E01317B7BFB000422EC1 /* QuickSchedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		5B38E01417B7BFB000422EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B38E01517B7BFB000422EC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B38E01E17B7BFB000422EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5B38E02817B7BFF400422EC1 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		5B38E02917B7BFF400422EC1 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		5B38E02A17B7BFF400422EC1 /* WorkShift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkShift.h; sourceTree = "<group>"; };
+		5B38E02B17B7BFF400422EC1 /* WorkShift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkShift.m; sourceTree = "<group>"; };
+		5B38E02C17B7BFF400422EC1 /* WorkDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkDay.h; sourceTree = "<group>"; };
+		5B38E02D17B7BFF400422EC1 /* WorkDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkDay.m; sourceTree = "<group>"; };
+		5B6E666418123E4C005D8269 /* shareImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareImage2.png; sourceTree = "<group>"; };
+		5B6E666618123E8E005D8269 /* shareImage2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareImage2@2x.png"; sourceTree = "<group>"; };
+		5BAEA607180058EC0038A5ED /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5BB548F6181D8AA20055A94F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BB7C95C17E8D45900608790 /* MyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		5BB7C95D17E8D45900608790 /* MyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
+		5BC119611801131F00DC2904 /* DayOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayOrderViewController.h; sourceTree = "<group>"; };
+		5BC119621801131F00DC2904 /* DayOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayOrderViewController.m; sourceTree = "<group>"; };
+		5BC237B01801BFD200C6CF6B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BC237B11801BFD200C6CF6B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BC237B21801BFD200C6CF6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BC237B31801BFD200C6CF6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BC237B51801BFD200C6CF6B /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		5BC237B61801BFD200C6CF6B /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		5BC237B91801BFD200C6CF6B /* EmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesViewController.h; sourceTree = "<group>"; };
+		5BC237BA1801BFD200C6CF6B /* EmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeesViewController.m; sourceTree = "<group>"; };
+		5BC237BC1801BFD200C6CF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC237BE1801BFD200C6CF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5BC237BF1801BFD200C6CF6B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC237C01801BFD200C6CF6B /* QuickSchedule-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QuickSchedule-Info.plist"; sourceTree = "<group>"; };
+		5BC237C11801BFD200C6CF6B /* QuickSchedule-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		5BC237C21801BFD200C6CF6B /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		5BC237C31801BFD200C6CF6B /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		5BC237C51801BFD200C6CF6B /* WorkDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkDay.h; sourceTree = "<group>"; };
+		5BC237C61801BFD200C6CF6B /* WorkDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkDay.m; sourceTree = "<group>"; };
+		5BC237C71801BFD200C6CF6B /* WorkShift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkShift.h; sourceTree = "<group>"; };
+		5BC237C81801BFD200C6CF6B /* WorkShift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkShift.m; sourceTree = "<group>"; };
+		5BC8AA311AE2B8DF0000A141 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		5BC8AA321AE2B8DF0000A141 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		5BC8AA331AE2B8DF0000A141 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		5BC8AA341AE2B8DF0000A141 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		5BC8AA351AE2B8DF0000A141 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5BC8AA361AE2B8DF0000A141 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		5BC8AA371AE2B8DF0000A141 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		5BC8AA381AE2B8DF0000A141 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		5BC8AA391AE2B8DF0000A141 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40.png"; sourceTree = "<group>"; };
+		5BC8AA3A1AE2B8DF0000A141 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		5BC8AA3B1AE2B8DF0000A141 /* Icon-Small-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@3x.png"; sourceTree = "<group>"; };
+		5BC8AA3C1AE2B8DF0000A141 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		5BC8AA3D1AE2B8DF0000A141 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		5BC8AA3E1AE2B8DF0000A141 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		5BC8AA3F1AE2B8DF0000A141 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		5BC8AA401AE2B8DF0000A141 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		5BC8AA411AE2B8DF0000A141 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5BC8AA421AE2B8DF0000A141 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5BC8AA431AE2B8DF0000A141 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		5BC8AA571AE2BBC30000A141 /* QuickSchedule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = QuickSchedule.entitlements; sourceTree = "<group>"; };
+		5BC8AA5C1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QuickSchedule WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC8AA5F1AE2C3CC0000A141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC8AA601AE2C3CC0000A141 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		5BC8AA611AE2C3CC0000A141 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		5BC8AA631AE2C3CC0000A141 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BC8AA671AE2C3CC0000A141 /* QuickSchedule WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickSchedule WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC8AA6D1AE2C3CC0000A141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC8AA6F1AE2C3CC0000A141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5BC8AA711AE2C3CC0000A141 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BC8AA7D1AE2C49C0000A141 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		5BC8AA7E1AE2C49C0000A141 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		5BC8AA831AE2C49C0000A141 /* MyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		5BC8AA841AE2C49C0000A141 /* MyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
+		5BC8AA871AE2C49C0000A141 /* WorkDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkDay.h; sourceTree = "<group>"; };
+		5BC8AA881AE2C49C0000A141 /* WorkDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkDay.m; sourceTree = "<group>"; };
+		5BC8AA891AE2C49C0000A141 /* WorkShift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkShift.h; sourceTree = "<group>"; };
+		5BC8AA8A1AE2C49C0000A141 /* WorkShift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkShift.m; sourceTree = "<group>"; };
+		5BC8AA961AE2CECD0000A141 /* ShiftRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftRowController.h; sourceTree = "<group>"; };
+		5BC8AA971AE2CECD0000A141 /* ShiftRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiftRowController.m; sourceTree = "<group>"; };
+		5BC8AA991AE2CEE50000A141 /* EmployeeRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeRowController.h; sourceTree = "<group>"; };
+		5BC8AA9A1AE2CEE50000A141 /* EmployeeRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeRowController.m; sourceTree = "<group>"; };
+		5BC8AA9C1AE2CF370000A141 /* EmployeesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesInterfaceController.h; sourceTree = "<group>"; };
+		5BC8AA9D1AE2CF370000A141 /* EmployeesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeesInterfaceController.m; sourceTree = "<group>"; };
+		5BC8AA9F1AE2DF560000A141 /* QuickSchedule WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "QuickSchedule WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5BCFBBE517BFA4F700C2ABC4 /* AddEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
+		5BCFBBE617BFA4F700C2ABC4 /* AddEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
+		5BE5A43F183DC5EB00C834BC /* LaunchImage-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-iPad.png"; sourceTree = "<group>"; };
+		5BE5A440183DC5EB00C834BC /* LaunchImage-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-iPad@2x.png"; sourceTree = "<group>"; };
+		5BF6251A1810606200B58B64 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BF6251B1810606200B58B64 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B38DFFF17B7BFB000422EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAEA608180058EC0038A5ED /* MessageUI.framework in Frameworks */,
+				5B38E00617B7BFB000422EC1 /* UIKit.framework in Frameworks */,
+				5B38E00817B7BFB000422EC1 /* Foundation.framework in Frameworks */,
+				5B38E00A17B7BFB000422EC1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC8AA591AE2C3CC0000A141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B38DFF917B7BFB000422EC1 = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA2F1AE2B8DF0000A141 /* App Icon [Squared] */,
+				5BB548F8181D8EFC0055A94F /* Final Art */,
+				5B6E666618123E8E005D8269 /* shareImage2@2x.png */,
+				5B6E666418123E4C005D8269 /* shareImage2.png */,
+				5B19CAD21810DFF500B8220F /* temp2.png */,
+				5BC237AF1801BFD200C6CF6B /* QuickSchedule */,
+				5BC119611801131F00DC2904 /* DayOrderViewController.h */,
+				5BC119621801131F00DC2904 /* DayOrderViewController.m */,
+				5BB7C95B17E8D42000608790 /* DataManager */,
+				5BC7743017E9F8140066648E /* WorkShift Controllers */,
+				5BC7742F17E9F7970066648E /* Employee Controllers */,
+				5B140B5317B7CD470021F190 /* ScheduleViewController.h */,
+				5B140B5417B7CD470021F190 /* ScheduleViewController.m */,
+				5B38E00B17B7BFB000422EC1 /* QuickSchedule */,
+				5BC8AA5D1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension */,
+				5BC8AA6B1AE2C3CC0000A141 /* QuickSchedule WatchKit App */,
+				5B38E00417B7BFB000422EC1 /* Frameworks */,
+				5B38E00317B7BFB000422EC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B38E00317B7BFB000422EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B38E00217B7BFB000422EC1 /* QuickSchedule.app */,
+				5BC8AA5C1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension.appex */,
+				5BC8AA671AE2C3CC0000A141 /* QuickSchedule WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B38E00417B7BFB000422EC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAEA607180058EC0038A5ED /* MessageUI.framework */,
+				5B38E00517B7BFB000422EC1 /* UIKit.framework */,
+				5B38E00717B7BFB000422EC1 /* Foundation.framework */,
+				5B38E00917B7BFB000422EC1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B38E00B17B7BFB000422EC1 /* QuickSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				5B38E03117B7C00700422EC1 /* Model Classes */,
+				5B38E01417B7BFB000422EC1 /* AppDelegate.h */,
+				5B38E01517B7BFB000422EC1 /* AppDelegate.m */,
+				5B38E01D17B7BFB000422EC1 /* MainStoryboard.storyboard */,
+				5B38E00C17B7BFB000422EC1 /* Supporting Files */,
+			);
+			path = QuickSchedule;
+			sourceTree = "<group>";
+		};
+		5B38E00C17B7BFB000422EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B19CACC1810CA0A00B8220F /* Default-568h@2x.png */,
+				5BF6251A1810606200B58B64 /* Default.png */,
+				5BF6251B1810606200B58B64 /* Default@2x.png */,
+				5B38E00D17B7BFB000422EC1 /* QuickSchedule-Info.plist */,
+				5B38E00E17B7BFB000422EC1 /* InfoPlist.strings */,
+				5B38E01117B7BFB000422EC1 /* main.m */,
+				5B38E01317B7BFB000422EC1 /* QuickSchedule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B38E03117B7C00700422EC1 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B38E02817B7BFF400422EC1 /* Employee.h */,
+				5B38E02917B7BFF400422EC1 /* Employee.m */,
+				5B38E02A17B7BFF400422EC1 /* WorkShift.h */,
+				5B38E02B17B7BFF400422EC1 /* WorkShift.m */,
+				5B38E02C17B7BFF400422EC1 /* WorkDay.h */,
+				5B38E02D17B7BFF400422EC1 /* WorkDay.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		5BB548F8181D8EFC0055A94F /* Final Art */ = {
+			isa = PBXGroup;
+			children = (
+				5BE5A43F183DC5EB00C834BC /* LaunchImage-iPad.png */,
+				5BE5A440183DC5EB00C834BC /* LaunchImage-iPad@2x.png */,
+			);
+			name = "Final Art";
+			sourceTree = "<group>";
+		};
+		5BB7C95B17E8D42000608790 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				5BB7C95C17E8D45900608790 /* MyManager.h */,
+				5BB7C95D17E8D45900608790 /* MyManager.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		5BBCE7691808D255004C5606 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BC237B51801BFD200C6CF6B /* Employee.h */,
+				5BC237B61801BFD200C6CF6B /* Employee.m */,
+				5BC237C51801BFD200C6CF6B /* WorkDay.h */,
+				5BC237C61801BFD200C6CF6B /* WorkDay.m */,
+				5BC237C71801BFD200C6CF6B /* WorkShift.h */,
+				5BC237C81801BFD200C6CF6B /* WorkShift.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		5BC237AF1801BFD200C6CF6B /* QuickSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA571AE2BBC30000A141 /* QuickSchedule.entitlements */,
+				5BC237B01801BFD200C6CF6B /* AppDelegate.h */,
+				5BC237B11801BFD200C6CF6B /* AppDelegate.m */,
+				5BC237B21801BFD200C6CF6B /* Default-568h@2x.png */,
+				5BC237B31801BFD200C6CF6B /* Default.png */,
+				5BBCE7691808D255004C5606 /* Model Classes */,
+				5BC237B91801BFD200C6CF6B /* EmployeesViewController.h */,
+				5BC237BA1801BFD200C6CF6B /* EmployeesViewController.m */,
+				5BC237BB1801BFD200C6CF6B /* InfoPlist.strings */,
+				5BC237BD1801BFD200C6CF6B /* MainStoryboard.storyboard */,
+				5BC237BF1801BFD200C6CF6B /* main.m */,
+				5BC237C01801BFD200C6CF6B /* QuickSchedule-Info.plist */,
+				5BC237C11801BFD200C6CF6B /* QuickSchedule-Prefix.pch */,
+				5BC237C21801BFD200C6CF6B /* ScheduleViewController.h */,
+				5BC237C31801BFD200C6CF6B /* ScheduleViewController.m */,
+				5BB548F6181D8AA20055A94F /* Images.xcassets */,
+			);
+			path = QuickSchedule;
+			sourceTree = "<group>";
+		};
+		5BC7742F17E9F7970066648E /* Employee Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BCFBBE517BFA4F700C2ABC4 /* AddEmployeeViewController.h */,
+				5BCFBBE617BFA4F700C2ABC4 /* AddEmployeeViewController.m */,
+				5B140B5617B7D75C0021F190 /* EmployeesViewController.h */,
+				5B140B5717B7D75C0021F190 /* EmployeesViewController.m */,
+			);
+			name = "Employee Controllers";
+			sourceTree = "<group>";
+		};
+		5BC7743017E9F8140066648E /* WorkShift Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7743117E9F8440066648E /* View 1 */,
+				5BC7743217E9F8570066648E /* View 2 */,
+				5BC7743317E9F8950066648E /* View 3 */,
+			);
+			name = "WorkShift Controllers";
+			sourceTree = "<group>";
+		};
+		5BC7743117E9F8440066648E /* View 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5B18C31717C12D8200711181 /* EditShiftsViewController.h */,
+				5B18C31817C12D8200711181 /* EditShiftsViewController.m */,
+			);
+			name = "View 1";
+			sourceTree = "<group>";
+		};
+		5BC7743217E9F8570066648E /* View 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E186B17D4E43000237B76 /* EditDayViewController.h */,
+				5B0E186C17D4E43000237B76 /* EditDayViewController.m */,
+			);
+			name = "View 2";
+			sourceTree = "<group>";
+		};
+		5BC7743317E9F8950066648E /* View 3 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E186E17D4E4E000237B76 /* EditShiftDetailViewController.h */,
+				5B0E186F17D4E4E000237B76 /* EditShiftDetailViewController.m */,
+			);
+			name = "View 3";
+			sourceTree = "<group>";
+		};
+		5BC8AA2F1AE2B8DF0000A141 /* App Icon [Squared] */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA301AE2B8DF0000A141 /* AppIcon.appiconset */,
+				5BC8AA321AE2B8DF0000A141 /* Icon-60.png */,
+				5BC8AA331AE2B8DF0000A141 /* Icon-60@2x.png */,
+				5BC8AA341AE2B8DF0000A141 /* Icon-60@3x.png */,
+				5BC8AA351AE2B8DF0000A141 /* Icon-72.png */,
+				5BC8AA361AE2B8DF0000A141 /* Icon-72@2x.png */,
+				5BC8AA371AE2B8DF0000A141 /* Icon-76.png */,
+				5BC8AA381AE2B8DF0000A141 /* Icon-76@2x.png */,
+				5BC8AA391AE2B8DF0000A141 /* Icon-Small-40.png */,
+				5BC8AA3A1AE2B8DF0000A141 /* Icon-Small-40@2x.png */,
+				5BC8AA3B1AE2B8DF0000A141 /* Icon-Small-40@3x.png */,
+				5BC8AA3C1AE2B8DF0000A141 /* Icon-Small-50.png */,
+				5BC8AA3D1AE2B8DF0000A141 /* Icon-Small-50@2x.png */,
+				5BC8AA3E1AE2B8DF0000A141 /* Icon-Small.png */,
+				5BC8AA3F1AE2B8DF0000A141 /* Icon-Small@2x.png */,
+				5BC8AA401AE2B8DF0000A141 /* Icon-Small@3x.png */,
+				5BC8AA411AE2B8DF0000A141 /* Icon.png */,
+				5BC8AA421AE2B8DF0000A141 /* Icon@2x.png */,
+				5BC8AA431AE2B8DF0000A141 /* iTunesArtwork@2x.png */,
+			);
+			path = "App Icon [Squared]";
+			sourceTree = "<group>";
+		};
+		5BC8AA301AE2B8DF0000A141 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA311AE2B8DF0000A141 /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		5BC8AA5D1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA9F1AE2DF560000A141 /* QuickSchedule WatchKit Extension.entitlements */,
+				5BC8AA921AE2C4C70000A141 /* Watch Models */,
+				5BC8AA951AE2C5C40000A141 /* Row Controllers */,
+				5BC8AA941AE2C59F0000A141 /* Interface Controllers */,
+				5BC8AA931AE2C4E70000A141 /* Watch Data Manager */,
+				5BC8AA631AE2C3CC0000A141 /* Images.xcassets */,
+				5BC8AA5E1AE2C3CC0000A141 /* Supporting Files */,
+			);
+			path = "QuickSchedule WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5BC8AA5E1AE2C3CC0000A141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA5F1AE2C3CC0000A141 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BC8AA6B1AE2C3CC0000A141 /* QuickSchedule WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA6E1AE2C3CC0000A141 /* Interface.storyboard */,
+				5BC8AA711AE2C3CC0000A141 /* Images.xcassets */,
+				5BC8AA6C1AE2C3CC0000A141 /* Supporting Files */,
+			);
+			path = "QuickSchedule WatchKit App";
+			sourceTree = "<group>";
+		};
+		5BC8AA6C1AE2C3CC0000A141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA6D1AE2C3CC0000A141 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BC8AA921AE2C4C70000A141 /* Watch Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA7D1AE2C49C0000A141 /* Employee.h */,
+				5BC8AA7E1AE2C49C0000A141 /* Employee.m */,
+				5BC8AA871AE2C49C0000A141 /* WorkDay.h */,
+				5BC8AA881AE2C49C0000A141 /* WorkDay.m */,
+				5BC8AA891AE2C49C0000A141 /* WorkShift.h */,
+				5BC8AA8A1AE2C49C0000A141 /* WorkShift.m */,
+			);
+			name = "Watch Models";
+			sourceTree = "<group>";
+		};
+		5BC8AA931AE2C4E70000A141 /* Watch Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA831AE2C49C0000A141 /* MyManager.h */,
+				5BC8AA841AE2C49C0000A141 /* MyManager.m */,
+			);
+			name = "Watch Data Manager";
+			sourceTree = "<group>";
+		};
+		5BC8AA941AE2C59F0000A141 /* Interface Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA601AE2C3CC0000A141 /* InterfaceController.h */,
+				5BC8AA611AE2C3CC0000A141 /* InterfaceController.m */,
+				5BC8AA9C1AE2CF370000A141 /* EmployeesInterfaceController.h */,
+				5BC8AA9D1AE2CF370000A141 /* EmployeesInterfaceController.m */,
+			);
+			name = "Interface Controllers";
+			sourceTree = "<group>";
+		};
+		5BC8AA951AE2C5C40000A141 /* Row Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8AA961AE2CECD0000A141 /* ShiftRowController.h */,
+				5BC8AA971AE2CECD0000A141 /* ShiftRowController.m */,
+				5BC8AA991AE2CEE50000A141 /* EmployeeRowController.h */,
+				5BC8AA9A1AE2CEE50000A141 /* EmployeeRowController.m */,
+			);
+			name = "Row Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B38E00117B7BFB000422EC1 /* QuickSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B38E02517B7BFB000422EC1 /* Build configuration list for PBXNativeTarget "QuickSchedule" */;
+			buildPhases = (
+				5B38DFFE17B7BFB000422EC1 /* Sources */,
+				5B38DFFF17B7BFB000422EC1 /* Frameworks */,
+				5B38E00017B7BFB000422EC1 /* Resources */,
+				5BC8AA7C1AE2C3CC0000A141 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC8AA741AE2C3CC0000A141 /* PBXTargetDependency */,
+			);
+			name = QuickSchedule;
+			productName = QuickSchedule;
+			productReference = 5B38E00217B7BFB000422EC1 /* QuickSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BC8AA5B1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC8AA791AE2C3CC0000A141 /* Build configuration list for PBXNativeTarget "QuickSchedule WatchKit Extension" */;
+			buildPhases = (
+				5BC8AA581AE2C3CC0000A141 /* Sources */,
+				5BC8AA591AE2C3CC0000A141 /* Frameworks */,
+				5BC8AA5A1AE2C3CC0000A141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC8AA6A1AE2C3CC0000A141 /* PBXTargetDependency */,
+			);
+			name = "QuickSchedule WatchKit Extension";
+			productName = "QuickSchedule WatchKit Extension";
+			productReference = 5BC8AA5C1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5BC8AA661AE2C3CC0000A141 /* QuickSchedule WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC8AA761AE2C3CC0000A141 /* Build configuration list for PBXNativeTarget "QuickSchedule WatchKit App" */;
+			buildPhases = (
+				5BC8AA651AE2C3CC0000A141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuickSchedule WatchKit App";
+			productName = "QuickSchedule WatchKit App";
+			productReference = 5BC8AA671AE2C3CC0000A141 /* QuickSchedule WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B38DFFA17B7BFB000422EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Darrell Nicholas";
+				TargetAttributes = {
+					5B38E00117B7BFB000422EC1 = {
+						DevelopmentTeam = YAZVT7PQ49;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5BC8AA5B1AE2C3CC0000A141 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = YAZVT7PQ49;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5BC8AA661AE2C3CC0000A141 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = YAZVT7PQ49;
+					};
+				};
+			};
+			buildConfigurationList = 5B38DFFD17B7BFB000422EC1 /* Build configuration list for PBXProject "QuickSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B38DFF917B7BFB000422EC1;
+			productRefGroup = 5B38E00317B7BFB000422EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B38E00117B7BFB000422EC1 /* QuickSchedule */,
+				5BC8AA5B1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension */,
+				5BC8AA661AE2C3CC0000A141 /* QuickSchedule WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B38E00017B7BFB000422EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8AA451AE2B8DF0000A141 /* Icon-60.png in Resources */,
+				5B38E01017B7BFB000422EC1 /* InfoPlist.strings in Resources */,
+				5BC8AA501AE2B8DF0000A141 /* Icon-Small-50@2x.png in Resources */,
+				5BB548F7181D8AA20055A94F /* Images.xcassets in Resources */,
+				5BE5A445183DC5EB00C834BC /* LaunchImage-iPad@2x.png in Resources */,
+				5B6E666518123E4C005D8269 /* shareImage2.png in Resources */,
+				5BC8AA541AE2B8DF0000A141 /* Icon.png in Resources */,
+				5B19CACD1810CA0A00B8220F /* Default-568h@2x.png in Resources */,
+				5BC237D11801BFD200C6CF6B /* MainStoryboard.storyboard in Resources */,
+				5BF6251E1810606200B58B64 /* Default@2x.png in Resources */,
+				5BC8AA461AE2B8DF0000A141 /* Icon-60@2x.png in Resources */,
+				5BC8AA4C1AE2B8DF0000A141 /* Icon-Small-40.png in Resources */,
+				5BF6251D1810606200B58B64 /* Default.png in Resources */,
+				5B6E666718123E8E005D8269 /* shareImage2@2x.png in Resources */,
+				5B19CAD31810DFF500B8220F /* temp2.png in Resources */,
+				5BC8AA551AE2B8DF0000A141 /* Icon@2x.png in Resources */,
+				5BC8AA511AE2B8DF0000A141 /* Icon-Small.png in Resources */,
+				5BC8AA4B1AE2B8DF0000A141 /* Icon-76@2x.png in Resources */,
+				5BC8AA4F1AE2B8DF0000A141 /* Icon-Small-50.png in Resources */,
+				5BC8AA471AE2B8DF0000A141 /* Icon-60@3x.png in Resources */,
+				5BC8AA4E1AE2B8DF0000A141 /* Icon-Small-40@3x.png in Resources */,
+				5BE5A444183DC5EB00C834BC /* LaunchImage-iPad.png in Resources */,
+				5BC8AA521AE2B8DF0000A141 /* Icon-Small@2x.png in Resources */,
+				5B38E01F17B7BFB000422EC1 /* MainStoryboard.storyboard in Resources */,
+				5BC8AA4D1AE2B8DF0000A141 /* Icon-Small-40@2x.png in Resources */,
+				5BC8AA4A1AE2B8DF0000A141 /* Icon-76.png in Resources */,
+				5BC8AA481AE2B8DF0000A141 /* Icon-72.png in Resources */,
+				5BC237D01801BFD200C6CF6B /* InfoPlist.strings in Resources */,
+				5BC8AA441AE2B8DF0000A141 /* Contents.json in Resources */,
+				5BC8AA531AE2B8DF0000A141 /* Icon-Small@3x.png in Resources */,
+				5BC8AA491AE2B8DF0000A141 /* Icon-72@2x.png in Resources */,
+				5BC8AA561AE2B8DF0000A141 /* iTunesArtwork@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC8AA5A1AE2C3CC0000A141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8AA641AE2C3CC0000A141 /* Images.xcassets in Resources */,
+				5BC8AA681AE2C3CC0000A141 /* QuickSchedule WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC8AA651AE2C3CC0000A141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8AA701AE2C3CC0000A141 /* Interface.storyboard in Resources */,
+				5BC8AA721AE2C3CC0000A141 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B38DFFE17B7BFB000422EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC237CF1801BFD200C6CF6B /* EmployeesViewController.m in Sources */,
+				5B38E01217B7BFB000422EC1 /* main.m in Sources */,
+				5B38E01617B7BFB000422EC1 /* AppDelegate.m in Sources */,
+				5B38E02E17B7BFF400422EC1 /* Employee.m in Sources */,
+				5B38E02F17B7BFF400422EC1 /* WorkShift.m in Sources */,
+				5B38E03017B7BFF400422EC1 /* WorkDay.m in Sources */,
+				5BC237D41801BFD200C6CF6B /* ScheduleViewController.m in Sources */,
+				5BCFBBE717BFA4F700C2ABC4 /* AddEmployeeViewController.m in Sources */,
+				5BC119631801131F00DC2904 /* DayOrderViewController.m in Sources */,
+				5B18C31917C12D8200711181 /* EditShiftsViewController.m in Sources */,
+				5B0E186D17D4E43000237B76 /* EditDayViewController.m in Sources */,
+				5B0E187017D4E4E000237B76 /* EditShiftDetailViewController.m in Sources */,
+				5BB7C95E17E8D45900608790 /* MyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC8AA581AE2C3CC0000A141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8AA901AE2C49C0000A141 /* WorkDay.m in Sources */,
+				5BC8AA9E1AE2CF370000A141 /* EmployeesInterfaceController.m in Sources */,
+				5BC8AA621AE2C3CC0000A141 /* InterfaceController.m in Sources */,
+				5BC8AA981AE2CECD0000A141 /* ShiftRowController.m in Sources */,
+				5BC8AA8E1AE2C49C0000A141 /* MyManager.m in Sources */,
+				5BC8AA8B1AE2C49C0000A141 /* Employee.m in Sources */,
+				5BC8AA9B1AE2CEE50000A141 /* EmployeeRowController.m in Sources */,
+				5BC8AA911AE2C49C0000A141 /* WorkShift.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC8AA6A1AE2C3CC0000A141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC8AA661AE2C3CC0000A141 /* QuickSchedule WatchKit App */;
+			targetProxy = 5BC8AA691AE2C3CC0000A141 /* PBXContainerItemProxy */;
+		};
+		5BC8AA741AE2C3CC0000A141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC8AA5B1AE2C3CC0000A141 /* QuickSchedule WatchKit Extension */;
+			targetProxy = 5BC8AA731AE2C3CC0000A141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B38E00E17B7BFB000422EC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B38E00F17B7BFB000422EC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B38E01D17B7BFB000422EC1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B38E01E17B7BFB000422EC1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC237BB1801BFD200C6CF6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC237BC1801BFD200C6CF6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BC237BD1801BFD200C6CF6B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC237BE1801BFD200C6CF6B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC8AA6E1AE2C3CC0000A141 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC8AA6F1AE2C3CC0000A141 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B38E02317B7BFB000422EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B38E02417B7BFB000422EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B38E02617B7BFB000422EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = QuickSchedule/QuickSchedule.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickSchedule/QuickSchedule-Prefix.pch";
+				INFOPLIST_FILE = "QuickSchedule/QuickSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B38E02717B7BFB000422EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = QuickSchedule/QuickSchedule.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickSchedule/QuickSchedule-Prefix.pch";
+				INFOPLIST_FILE = "QuickSchedule/QuickSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BC8AA771AE2C3CC0000A141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IBSC_MODULE = QuickSchedule_WatchKit_Extension;
+				INFOPLIST_FILE = "QuickSchedule WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5BC8AA781AE2C3CC0000A141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IBSC_MODULE = QuickSchedule_WatchKit_Extension;
+				INFOPLIST_FILE = "QuickSchedule WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5BC8AA7A1AE2C3CC0000A141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "QuickSchedule WatchKit Extension/QuickSchedule WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "QuickSchedule WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BC8AA7B1AE2C3CC0000A141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "QuickSchedule WatchKit Extension/QuickSchedule WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "QuickSchedule WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B38DFFD17B7BFB000422EC1 /* Build configuration list for PBXProject "QuickSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B38E02317B7BFB000422EC1 /* Debug */,
+				5B38E02417B7BFB000422EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B38E02517B7BFB000422EC1 /* Build configuration list for PBXNativeTarget "QuickSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B38E02617B7BFB000422EC1 /* Debug */,
+				5B38E02717B7BFB000422EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC8AA761AE2C3CC0000A141 /* Build configuration list for PBXNativeTarget "QuickSchedule WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC8AA771AE2C3CC0000A141 /* Debug */,
+				5BC8AA781AE2C3CC0000A141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BC8AA791AE2C3CC0000A141 /* Build configuration list for PBXNativeTarget "QuickSchedule WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC8AA7A1AE2C3CC0000A141 /* Debug */,
+				5BC8AA7B1AE2C3CC0000A141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B38DFFA17B7BFB000422EC1 /* Project object */;
+}

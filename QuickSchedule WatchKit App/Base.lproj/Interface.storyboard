@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14E7f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Schedule-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Schedule" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView width="50" height="50" alignment="center" image="MainLabel" id="CBe-FP-c5d"/>
+                        <table alignment="left" id="ynt-s5-UHR">
+                            <items>
+                                <tableRow identifier="ShiftRowType" id="DRo-YM-Djp" customClass="ShiftRowController">
+                                    <group key="rootItem" width="1" height="56" alignment="left" id="xY7-oi-8DK">
+                                        <items>
+                                            <imageView width="16" height="16" alignment="left" image="Friday" id="aon-Zc-hwQ"/>
+                                            <group width="1" widthAdjustment="-16" alignment="left" layout="vertical" id="u6Z-dw-6y1">
+                                                <items>
+                                                    <label alignment="left" text="Darrell Nicholas" numberOfLines="0" id="Jla-xA-Viw">
+                                                        <color key="textColor" red="0.97670525312423706" green="0.60546392202377319" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                    </label>
+                                                    <group width="1" alignment="left" layout="vertical" id="HcJ-X4-kSb">
+                                                        <items>
+                                                            <label alignment="left" text="Shift 1" id="Yvn-gz-B8D">
+                                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                            </label>
+                                                            <label alignment="left" text="12:00am-12:00pm" minimumScaleFactor="0.80000000000000004" id="Gqj-J7-Qxh">
+                                                                <color key="textColor" red="0.19376453757286072" green="0.50850099325180054" blue="0.85232251882553101" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <connections>
+                                            <segue destination="U99-tE-zO1" kind="push" id="TYj-xI-oDl"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="assignedEmployeeLabel" destination="Jla-xA-Viw" id="2Im-QL-3nC"/>
+                                        <outlet property="dayImage" destination="aon-Zc-hwQ" id="AlO-KY-KNJ"/>
+                                        <outlet property="shiftNameLabel" destination="Yvn-gz-B8D" id="3aG-sG-MQH"/>
+                                        <outlet property="shiftTimeLabel" destination="Gqj-J7-Qxh" id="vIW-ez-QZp"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="ynt-s5-UHR" id="xOH-Q5-fw2"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Employees-->
+        <scene sceneID="nIF-J5-3mp">
+            <objects>
+                <controller identifier="EmployeeScene" title="Employees" id="U99-tE-zO1" customClass="EmployeesInterfaceController">
+                    <items>
+                        <label width="135" alignment="left" hidden="YES" text="Add Employees from iPhone" textAlignment="center" numberOfLines="0" id="L3z-1z-yNe">
+                            <color key="textColor" red="0.66902792453765869" green="0.73128575086593628" blue="0.94889926910400391" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <table alignment="left" id="Hje-Le-dgT">
+                            <items>
+                                <tableRow identifier="EmployeeRowType" id="Jbm-sN-aLu" customClass="EmployeeRowController">
+                                    <group key="rootItem" width="1" height="37.5" alignment="left" layout="vertical" id="RvN-Vf-u8O">
+                                        <items>
+                                            <label alignment="left" text="Employee Name" id="4Gl-iN-9x4">
+                                                <color key="textColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                            <label alignment="left" text="99:00 hours" numberOfLines="0" id="Ztj-Xn-bWE">
+                                                <color key="textColor" red="0.19376453757286072" green="0.50850099325180054" blue="0.85232251882553101" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="employeeNameLabel" destination="4Gl-iN-9x4" id="10o-py-xBv"/>
+                                        <outlet property="totalHoursLabel" destination="Ztj-Xn-bWE" id="e6N-Yo-1gE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="addEmployeeMessageLabel" destination="L3z-1z-yNe" id="Mye-az-oEi"/>
+                        <outlet property="table" destination="Hje-Le-dgT" id="RAh-hW-mbe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="570" y="334"/>
+        </scene>
+    </scenes>
+</document>
